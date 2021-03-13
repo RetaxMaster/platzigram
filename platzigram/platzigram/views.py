@@ -20,6 +20,7 @@ def sorted_json(request):
 
     return JsonResponse({ 'numbers': sorted_numbers })
 
+
 def user(request, name, age):
 
     if age < 18:
